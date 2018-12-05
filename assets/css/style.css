@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+	width: 100%;
+	position: relative
+}
+
+.searchTerm {
+	float: left;
+	width: 97%;
+	border: 3px solid;
+	padding: 5px;
+	height: 20px;
+	outline: none;
+	color: #9DBFAF;
+}
+
+.searchTerm:focus{
+	color: #ff8000;
+}
+.shorturls{
+	margin-top: 95px;
+    margin-left: 466px;
+}
+.searchButton {
+	position: absolute;  
+	right: 0px;
+	width: 148px;
+	height: 36px;
+	border: 1px solid #ff8000;
+	background: #ff8000;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.page-head{
+	text-align: center;
+	font-size:25px;
+	font-weight:bold;
+	color: #ff8000;
+	margin-bottom:20px;
+}
+
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+	width: 50%;
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 14px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/*Override the dataTables default css !*/
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #da2c2c !important;
+    border: 1px solid #d42525;
+    background-color: #d21616;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #ff8000));
+    background: -webkit-linear-gradient(top, white 0%, #ff8000 100%);
+    background: -moz-linear-gradient(top, white 0%, #ff8000 100%);
+    background: -ms-linear-gradient(top, white 0%, #ff8000 100%);
+    background: -o-linear-gradient(top, white 0%, #ff8000 100%);
+    background: linear-gradient(to bottom, white 0%, #ff8000 100%);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: white !important;
+    border: 1px solid #ff8000!important;
+    background-color: #ff8000!important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff8000), color-stop(100%, #ff8000))!important;
+    background: -webkit-linear-gradient(top, #ff8000 0%, #ff8000 100%)!important;
+    background: -moz-linear-gradient(top, #ff8000 0%, #ff8000 100%)!important;
+    background: -ms-linear-gradient(top, #ff8000 0%, #ff8000 100%)!important;
+    background: -o-linear-gradient(top, #ff8000 0%, #ff8000 100%)!important;
+    background: linear-gradient(to bottom, #ff8000 0%, #ff8000 100%)!important;
+}
