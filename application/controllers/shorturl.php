@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Shorten extends CI_Controller {
+class Shorturl extends CI_Controller {
 	/*
      * ======================================================================================================
      * Shorten Controller :
