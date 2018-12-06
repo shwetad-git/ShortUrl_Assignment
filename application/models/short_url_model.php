@@ -1,4 +1,15 @@
 <?php
+/*
+     * ======================================================================================================
+     * short_url_model :
+     * ======================================================================================================
+     * This model does database related operations.
+     * 
+     * Functions in this model are :
+     * 1. frequent_used_url
+     * 2. store_long_url
+     * 3. get_long_url
+ */
 
 class Short_url_model extends CI_Model {
 
