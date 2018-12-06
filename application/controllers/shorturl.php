@@ -73,7 +73,9 @@ class Shorturl extends CI_Controller {
 			}
 		}
 
-        $this->load->view('display_short_url', $data);//load the single view get_url and send any data to it
+       	$this->load->view('templates/header', $data);//load the header template
+        $this->load->view('display_short_url', $data);//load the single view display_short_url and send any data to it
+	$this->load->view('templates/footer', $data);//load the footer template
     }
 
    /* =======================================================================================================
