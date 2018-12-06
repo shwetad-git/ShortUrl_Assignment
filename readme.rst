@@ -22,16 +22,19 @@ change the database details
 Please follow below instructions to run and test the assignment:
 
 1. Install the XAMPP server on local system
-2. Unzip folder and upload them into xampp/htdocs/
+2. Create folder into xampp/htdocs/
+2. Unzip folder and upload them into xampp/htdocs/'your_folder'
 
 2. create new database called "shorturl_db" in phpMyAdmin.
 	- import the database dump file in shorturl_db database. 
 
 3. Now time to view the assignment.
+	- If your folder name is 'shorturl' then
 	- Hit the URL "http://localhost/shorturl/" in browser
 
 ## Running the tests
 
 Run the project 
-Hit the URL "http://localhost/shorturl/" in browser
+- If your folder name is 'shorturl' then
+  Hit the URL "http://localhost/shorturl/" in browser
 
