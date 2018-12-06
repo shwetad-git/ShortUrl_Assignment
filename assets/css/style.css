@@ -101,3 +101,8 @@ tr:nth-child(even) {
     background: -o-linear-gradient(top, #ff8000 0%, #ff8000 100%)!important;
     background: linear-gradient(to bottom, #ff8000 0%, #ff8000 100%)!important;
 }
+
+.bg-4, header {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
