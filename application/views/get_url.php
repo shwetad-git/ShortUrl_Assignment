@@ -19,7 +19,7 @@
    </head>
    <!-- !Body -->
    <body>
-      <div id="container">
+      <div class="container">
          <section id="main">
             <h3 class="page-head"> URL SHORTNER </h3>
             <form action="/shorturl/" method="post" accept-charset="utf-8">
