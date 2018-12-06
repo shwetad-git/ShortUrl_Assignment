@@ -45,7 +45,7 @@ class Shorten extends CI_Controller {
     public function index()
     {
 
-        $data=array(); //data to be sent to the view‚
+        $data=array(); //data to be sent to the viewâ€š
 
         if($this->input->post('url'))//did the user post a URL to be shorten?
         {
@@ -73,7 +73,7 @@ class Shorten extends CI_Controller {
 			}
 		}
 
-        $this->load->view('get_url', $data);//load the single view get_url and send any data to it
+        $this->load->view('display_short_url', $data);//load the single view get_url and send any data to it
     }
 
    /* =======================================================================================================
@@ -81,7 +81,7 @@ class Shorten extends CI_Controller {
    * get_shorty()
    * 
    * Function Description : 
-   * > This function is called by the routes file using the 404_override‚
+   * > This function is called by the routes file using the 404_overrideâ€š
    * > direct the user to the long URL.
    * 
    * @params : 
