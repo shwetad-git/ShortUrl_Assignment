@@ -54,6 +54,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['translate_uri_dashes'] = FALSE;
 
 
-$route['default_controller'] = "shorten";
-$route['404_override'] = 'shorten/get_shorty';
-$route['error_404'] = 'shorten/error_404';
+$route['default_controller'] = "Shorturl";
+$route['404_override'] = 'Shorturl/get_shorty';
+$route['error_404'] = 'Shorturl/error_404';
