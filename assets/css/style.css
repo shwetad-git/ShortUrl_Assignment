@@ -3,7 +3,10 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
-
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
 .search {
 	width: 100%;
 	position: relative
