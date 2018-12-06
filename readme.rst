@@ -23,7 +23,7 @@ Please follow below instructions to run and test the assignment:
 
 1. Install the XAMPP server on local system
 2. Create folder into xampp/htdocs/
-2. Unzip folder and upload them into xampp/htdocs/'your_folder'
+3. Unzip folder and upload them into xampp/htdocs/'your_folder'
 
 2. create new database called "shorturl_db" in phpMyAdmin.
 	- import the database dump file in shorturl_db database. 
