@@ -2,13 +2,11 @@
       <div class="container">
          <section id="main">
             <h3 class="page-head"> URL SHORTNER </h3>
-            <form action="/shorturl/" method="post" accept-charset="utf-8">
-               <div class="wrap">
+            <form action="" method="post" accept-charset="utf-8">
                    <div class="search">
-						<input type="text" name="url" class="searchTerm" placeholder="Enter URL to shorten it !">
-						<button type="submit" class="searchButton">MAKE SHORT URL</button>
+			<input type="text" name="url" class="searchTerm" placeholder="Enter URL to shorten it !">
+			<button type="submit" class="searchButton">MAKE SHORT URL</button>
                    </div>
-               </div>
             </form>
             <div class="shorturls">
                <?php
