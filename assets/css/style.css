@@ -26,7 +26,7 @@ html, body{
 }
 
 .searchTerm:focus{
-	color: #ff8000;
+	color: yellowgreen;
 }
 .shorturls{
 	margin-top: 95px;
@@ -83,9 +83,9 @@ tr:nth-child(even) {
 
 /*Override the dataTables default css !*/
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
-    color: #da2c2c !important;
-    border: 1px solid #d42525;
-    background-color: #d21616;
+    color: black !important;
+    border: 1px solid yellowgreen ;
+    background-color: yellowgreen;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #ff8000));
     background: -webkit-linear-gradient(top, white 0%, #ff8000 100%);
     background: -moz-linear-gradient(top, white 0%, #ff8000 100%);
@@ -96,8 +96,8 @@ tr:nth-child(even) {
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
     color: white !important;
-    border: 1px solid #ff8000!important;
-    background-color: #ff8000!important;
+    border: 1px solid yellowgreen !important;
+    background-color: yellowgreen !important;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff8000), color-stop(100%, #ff8000))!important;
     background: -webkit-linear-gradient(top, #ff8000 0%, #ff8000 100%)!important;
     background: -moz-linear-gradient(top, #ff8000 0%, #ff8000 100%)!important;
