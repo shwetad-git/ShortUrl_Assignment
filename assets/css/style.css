@@ -16,7 +16,7 @@ html, body{
 
 .searchTerm {
 	float: left;
-	width: 97%;
+	width: 60%;
 	border: 3px solid;
 	padding: 5px;
 	height: 40px;
@@ -33,7 +33,7 @@ html, body{
 }
 .searchButton {
 	position: absolute;  
-	right: 0px;
+	margin-left: 10px;
 	height: 40px;
 	border: 1px solid #ff8000;
 	background: #ff8000;
