@@ -36,7 +36,7 @@ class Shorturl extends CI_Controller {
    * 
    * Function Description : 
    * > called by default
-   * > Display list of short URL if exist.
+   * > Display list of short URL if exist. 
    * 
    * @params : 
    * none
