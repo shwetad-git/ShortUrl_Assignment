@@ -42,13 +42,14 @@ body{
 	font-size: 20px;
 }
 
-footer{ padding: 15px 25px;}
+footer{ padding: 15px 25px; !important}
 .page-head{
 	text-align: center;
 	font-size:25px;
 	font-weight:bold;
 	color: #ff8000;
-    padding: 10px 25px;
+    padding: 10px 25px !important;
+	margin:0 !important;
 }
 
 
