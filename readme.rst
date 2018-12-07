@@ -27,6 +27,7 @@ Please follow below instructions to run and test the assignment:
 
 2. create new database called "shorturl_db" in phpMyAdmin.
 	- import the database dump file in shorturl_db database. 
+	- database file location: database/shorturl_db.sql
 
 3. Now time to view the assignment.
 	- Hit the URL "http://localhost/shorturl/" in browser
