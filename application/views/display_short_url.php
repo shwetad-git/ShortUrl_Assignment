@@ -4,7 +4,7 @@
             <h3 class="page-head"> URL SHORTNER </h3>
             <form action="" method="post" accept-charset="utf-8">
                    <div class="search">
-			<input type="text" name="url" class="searchTerm" placeholder="Enter URL to shorten it !">
+			<input type="text" name="url" class="searchTerm" placeholder="Enter URL to make it short !">
 			<button type="submit" class="searchButton">MAKE SHORT URL</button>
                    </div>
             </form>
