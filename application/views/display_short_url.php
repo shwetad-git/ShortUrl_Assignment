@@ -1,10 +1,10 @@
  <body>
       <div class="container">
          <section id="main">
-            <h3 class="page-head"> URL SHORTNER </h3>
+            <h3 class="page-head">Enter Url to make it short: </h3>
             <form action="" method="post" accept-charset="utf-8">
                    <div class="search">
-			<input type="text" name="url" class="searchTerm" placeholder="Enter URL to make it short !">
+			<input type="text" name="url" class="searchTerm">
 			<button type="submit" class="searchButton">MAKE SHORT URL</button>
                    </div>
             </form>
