@@ -22,7 +22,7 @@ html, body{
 	padding: 5px;
 	height: 40px;
 	outline: none;
-	color: #9DBFAF;
+	color: yellowgreen;
 }
 
 .searchTerm:focus{
@@ -36,8 +36,8 @@ html, body{
 	position: absolute;  
 	margin-left: 10px;
 	height: 40px;
-	border: 1px solid #ff8000;
-	background: #ff8000;
+	border: 1px solid yellowgreen;
+	background: yellowgreen;
 	text-align: center;
 	color: #fff;
 	cursor: pointer;
@@ -49,7 +49,7 @@ footer{ padding: 15px 25px; !important}
 	text-align: center;
 	font-size:25px;
 	font-weight:bold;
-	color: #ff8000;
+	color: white;
     padding: 10px 25px !important;
 	margin:0 !important;
 }
