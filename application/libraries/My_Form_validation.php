@@ -38,7 +38,7 @@ class MY_Form_validation extends CI_Form_validation{
     // --------------------------------------------------------------------
      
  
-    /**
+    /** 
      * Validates that a URL is accessible. Also takes ports into consideration. 
      * Note: If you see "php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known" 
      *          then you are having DNS resolution issues and need to fix Apache
