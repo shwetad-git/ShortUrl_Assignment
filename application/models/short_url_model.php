@@ -24,7 +24,7 @@ class Short_url_model extends CI_Model {
 		$this->db->from('urls');		 
 		$this->db->where("count >=",1);
 		$this->db->or_where('count',0); 
-		$this->db->order_by("count", "desc");	
+		$this->db->order_by("id", "desc");	
 		$this->db->limit(100);		 
 		$query = $this->db->get();		
 		return $query->result_array();
