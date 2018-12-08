@@ -80,7 +80,7 @@ class Shorturl extends CI_Controller {
 
    /* =======================================================================================================
    * Function Name : 
-   * get_shorty()
+   * get_shorty() 
    * 
    * Function Description : 
    * > This function is called by the routes file using the 404_override‚
