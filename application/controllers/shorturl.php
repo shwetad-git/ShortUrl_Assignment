@@ -108,7 +108,7 @@ class Shorturl extends CI_Controller {
 	* none
 	* ======================================================================================================
 	*/
-    public function error_404()
+    public function error_404() 
     {
         $data['error']='Whoops cannot find that URL!';
         $this->load->view('get_url', $data);
