@@ -20,7 +20,7 @@ html, body{
 	width: 60%;
 	border: 3px solid;
 	padding: 5px;
-	height: 40px;
+	height: 50px;
 	outline: none;
 	color: yellowgreen;
 }
@@ -35,13 +35,13 @@ html, body{
 .searchButton {
 	position: absolute;  
 	margin-left: 10px;
-	height: 40px;
 	border: 1px solid yellowgreen;
 	background: yellowgreen;
 	text-align: center;
 	color: #fff;
 	cursor: pointer;
 	font-size: 20px;
+	padding: 10px 10px;
 }
 
 footer{ padding: 15px 25px; !important}
@@ -69,14 +69,16 @@ table {
     width: 50%;
     margin-left: 20%;
     margin-top: 14px;
+    border: 2px solid yellowgreen !important;
 }
 
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    border: 1px solid yellowgreen;
 }
-
+tr{border: 1px solid yellowgreen;}
 tr:nth-child(even) {
     background-color: #dddddd;
 }
@@ -109,4 +111,15 @@ tr:nth-child(even) {
 .bg-4, header {
     background-color: #2f2f2f;
     color: #ffffff;
+}
+.dataTables_wrapper .dataTables_filter input { border: 2px solid yellowgreen !important; height:35px !important;}
+
+input[type = search]{ border: 2px solid yellowgreen !important; height:35px !important;}
+
+table{border: 2px solid yellowgreen !important;}
+
+select{
+	border: 2px solid yellowgreen;
+    width: 60px;
+    height: 32px;
 }
