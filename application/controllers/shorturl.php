@@ -24,7 +24,7 @@ class Shorturl extends CI_Controller {
      * none
      * =======================================================================================================
      */
-		public function __construct()
+	public function __construct()
 	 {
 	  parent::__construct();
 	  $this->load->model('short_url_model');//load the model which deals with data for short URLs
