@@ -1,13 +1,25 @@
+ 
+<!--
+     * ======================================================================================================
+     * display_short_url.php View :
+     * ======================================================================================================
+     * This view file display url form and short url list
+     * 
+-->
+
  <body>
       <div class="container">
          <section id="main">
             <h3 class="page-head">Enter Url to make it short: </h3>
+            <!-- form for enter long URL -->
             <form action="" method="post" accept-charset="utf-8">
                    <div class="search">
-			<input type="text" name="url" class="searchTerm">
-			<button type="submit" class="searchButton">MAKE SHORT URL</button>
+            			<input type="text" name="url" class="searchTerm" placeholder="Enter url here">
+            			<button type="submit" class="searchButton">MAKE SHORT URL</button>
                    </div>
             </form>
+
+            <!-- Make Validations -->
             <div class="shorturls">
                <?php
                   if(isset($short_url))
@@ -19,7 +31,6 @@
                   		
                   		echo 'URL already exist';
                   	}
-                  	
                   }
                   
                   if(isset($error))
@@ -29,7 +40,8 @@
                   ?>
             </div>
          </section>
-         <!-- /main -->
+
+         <!-- Display URL list -->
          <table id="listTable" class="display">
             <thead>
                <tr>
