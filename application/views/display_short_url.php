@@ -48,7 +48,6 @@
                   <th>Sr.no</th>
                   <th>Long URL</th>
                   <th>Short URL</th>
-                  <th>Count</th>
                </tr>
             </thead>
             <tbody>
@@ -62,7 +61,7 @@
                   echo'<td>'.$srCount.'</td>';
                   echo'<td>'.$fdata['long_url'].'</td>';
                   echo'<td><a href="'.base_url().'index.php/'.str_replace('=','-', base64_encode($fdata['id'])).'"target="_blank">'.base_url().str_replace('=','-', base64_encode($fdata['id'])).'</a></td>';
-                  echo'<td>'.$fdata['count'].'</td>';
+                  
                   echo'</tr>';
                   $srCount++;
                   }
