@@ -3,7 +3,7 @@
 class Shorturl extends CI_Controller {
 	/*
      * ======================================================================================================
-     * Shorten Controller :
+     * Shorten Controller : 
      * ======================================================================================================
      * This controller controls URL shorten related operations.
      * 
@@ -110,7 +110,7 @@ class Shorturl extends CI_Controller {
 	*/
     public function error_404() 
     {
-        $data['error']='Whoops cannot find that URL!';
+        $data['error']='Ooops cannot find that URL!';
         $this->load->view('get_url', $data);
     }
 
