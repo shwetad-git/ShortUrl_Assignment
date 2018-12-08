@@ -71,7 +71,7 @@ table {
     margin-top: 14px;
     border: 2px solid yellowgreen !important;
 }
-
+.odd,.even, .sorting_1{background:#ffffff !important;}
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
@@ -79,8 +79,8 @@ td, th {
     border: 1px solid yellowgreen;
 }
 tr{border: 1px solid yellowgreen;}
-tr:nth-child(even) {
-    background-color: #dddddd;
+tr:nth-child(even), tr:nth-child(odd){
+    background-color: #ffffff !important;
 }
 
 /*Override the dataTables default css !*/
@@ -114,4 +114,8 @@ select{
 	border: 2px solid yellowgreen;
     width: 60px;
     height: 32px;
+}
+
+table.dataTable thead .sorting {
+    width: 70% !important;
 }
