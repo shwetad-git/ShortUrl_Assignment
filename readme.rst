@@ -21,9 +21,9 @@ Please setup the database
 Please follow below instructions to run and test the assignment:
 
 1. Download zip file from github link
-1. Install the XAMPP server on local system
-2. Create folder 'shorturl' into xampp/htdocs/ i.e. xampp/htdocs/shorturl
-3. Unzip folder and upload them into xampp/htdocs/shorturl
+2. Install the XAMPP server on local system
+3. Create folder 'shorturl' into xampp/htdocs/ i.e. xampp/htdocs/shorturl
+4. Unzip folder and upload them into xampp/htdocs/shorturl
 
 2. create new database called "shorturl_db" in phpMyAdmin.
 	- Import the database dump file in shorturl_db database. 
