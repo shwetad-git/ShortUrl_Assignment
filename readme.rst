@@ -17,16 +17,16 @@ you need database created in phpMyAdmin
 ### Installing
 
 Please setup the database 
-change the database details 
 
 Please follow below instructions to run and test the assignment:
 
+1. Download zip file from github link
 1. Install the XAMPP server on local system
 2. Create folder 'shorturl' into xampp/htdocs/ i.e. xampp/htdocs/shorturl
 3. Unzip folder and upload them into xampp/htdocs/shorturl
 
 2. create new database called "shorturl_db" in phpMyAdmin.
-	- import the database dump file in shorturl_db database. 
+	- Import the database dump file in shorturl_db database. 
 	- database file location: database/shorturl_db.sql
 
 3. Now time to view the assignment.
@@ -36,4 +36,3 @@ Please follow below instructions to run and test the assignment:
 
 Run the project 
   Hit the URL "http://localhost/shorturl/" in browser
-
