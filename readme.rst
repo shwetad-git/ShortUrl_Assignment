@@ -30,6 +30,7 @@ Please follow below instructions to run and test the assignment:
 	- database file location: database/shorturl_db.sql
 
 3. Now time to view the assignment.
+	- Start XAMPP server
 	- Hit the URL "http://localhost/shorturl/" in browser
 
 ## Running the tests
