@@ -14,8 +14,8 @@
             <!-- form for enter long URL -->
             <form action="" method="post" accept-charset="utf-8">
                    <div class="search">
-            			<input type="text" name="url" class="searchTerm" placeholder="Enter url here">
-            			<button type="submit" class="searchButton">MAKE SHORT URL</button>
+            		         	<input type="text" name="url" class="searchTerm" placeholder="Enter url here">
+            			         <button type="submit" class="searchButton">MAKE SHORT URL</button>
                    </div>
             </form>
 
